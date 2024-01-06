@@ -1,56 +1,70 @@
+# Getting Started with Create React App
 
-# GeekEtsy E-Commerce Website
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a full-stack e-commerce website created using React JS, MongoDB, Express, and Node.js. The website is designed to sell a variety of clothing products.
+## Available Scripts
 
-### Project Description
-The primary goal of this project is to develop an online platform where users can explore, search, and purchase clothing items. It includes functionalities such as user authentication, product management, shopping cart, and checkout features.
+In the project directory, you can run:
 
-### Features
-**User Authentication:** Users can create accounts, log in, and view their order history.
+### `npm start`
 
-**Product Listings:** The platform displays a wide range of clothing items, categorized and filterable for easy navigation.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Shopping Cart:** Users can add products to their carts, view cart contents, and proceed to checkout.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Admin Panel:** Admins have access to manage products, including adding, editing, and removing items.
+### `npm test`
 
-**Technologies Used**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-***React JS:*** Frontend development for the user interface.
+### `npm run build`
 
-***Node.js and Express:*** Backend server and API development.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-***MongoDB:*** Database management for storing product and user information.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Installation
-Clone the project to your local machine.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-  git clone my-project
-```
+### `npm run eject`
 
-Navigate to the client and server directories and run:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-  npm install my-project
-  cd my-project
-```
-in each to install dependencies.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Create a **MongoDB** database and add the connection details to the .env file.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Run,
+## Learn More
 
-```bash
-  npm start
-```
-in the **client** and **server** directories to start the application.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Usage
-Access the application by navigating to **localhost:3000** in your web browser.
-Use admin credentials to access the admin panel for product management.
-### Contributing
-If you'd like to contribute, please open an Issue to discuss proposed changes or additions.
-**Fork** the repository, make your changes, and submit a **Pull Request** for review.
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
